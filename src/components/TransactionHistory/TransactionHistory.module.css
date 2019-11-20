@@ -1,0 +1,36 @@
+.tableContainer {
+  font-family: Helvetica, sans-serif;
+  border-collapse: collapse;
+  margin: 0 auto;
+  width: 870px;
+  text-align: center;
+  box-shadow: 1px 1px 3px 1px rgba(191, 205, 222, 0.75);
+}
+
+.tableTitle {
+  background-color: #00bcd4;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+th,
+td {
+  width: 33.333%;
+  border-right: 1px solid #e0e6e7;
+  padding: 15px;
+}
+
+th:last-child,
+td:last-child {
+  border: none;
+}
+
+td {
+  font-size: 15px;
+  color: #5c6975;
+}
+
+.tableBody tr:nth-child(even) {
+  background-color: #ecf2f3;
+}
